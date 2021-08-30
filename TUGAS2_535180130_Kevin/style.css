@@ -53,3 +53,35 @@ body{
     padding: 0 25px;
 }
 
+.resume .title{
+    margin-bottom: 20px;
+}
+
+.resume .resume_left .bold{
+    color: #fff;
+}
+
+.resume .resume_left .regular{
+    color: #b1eaff;
+}
+
+.resume .resume_item{
+    padding: 25px 0;
+    border-bottom: 2px solid #b1eaff;
+}
+
+.resume .resume_left ul li{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.resume .resume_left .resume_skills ul li{
+    justify-content: space-between;
+}
+
+.resume .resume_right{
+    width: 520px;
+    background: #fff;
+    padding: 25px;
+}

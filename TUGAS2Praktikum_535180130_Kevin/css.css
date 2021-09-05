@@ -1,3 +1,4 @@
+/* CLass Selector */
 .isiteks{
     color: #99ccff;
     font-size: 36px;
@@ -6,4 +7,23 @@
 p.isiteks{
     color: #ff0000;
     font: 36px;
+}
+
+/* Id Selector*/
+#footer{
+    color: blue;
+    border: 1px solid black;
+}
+
+/*Child Selector*/
+div > p{
+    color: white;
+    background: green;
+    padding: 2px;
+}
+
+/*Descendant Selector*/
+div h2{
+    font-size: 26px;
+    text-align: center;
 }

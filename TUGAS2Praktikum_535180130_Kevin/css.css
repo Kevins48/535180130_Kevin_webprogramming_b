@@ -27,3 +27,14 @@ div h2{
     font-size: 26px;
     text-align: center;
 }
+
+/*Adjacent  Sibling Selector*/
+h1 + h2 {
+    color: red;
+}
+
+/*General Sibling Selector*/
+div ~ p {
+    background-color: yellow;
+}
+

@@ -38,3 +38,338 @@ div ~ p {
     background-color: yellow;
 }
 
+/* Font Family */
+p.sans-serif {
+    font-family: arial, verdana, sans-serif;
+}
+
+p.serif {
+    font-family: times, "times new roman", serif;
+}
+
+p.monospace {
+    font-family: courier, "courier new", monospace;
+}
+
+/*Font-size*/
+p.satu {
+    font-size: xx-small;
+}
+
+p.dua {
+    font-size: 12px;
+}
+
+p.tiga {
+    font-size: 3pc;
+}
+
+p.empat {
+    font-size: 70%;
+}
+
+/*Font-weight*/
+p.normal {font-weight:normal;}
+p.bold {font-weight: bold;}
+p.bold span {font-weight:lighter;}
+p.normal span {font-weight: bolder;}
+p.satu {font-weight:100;}
+p.dua {font-weight:200;}
+p.tiga {font-weight:300;}
+p.empat {font-weight:400;}
+p.lima {font-weight:500;}
+p.enam {font-weight:600;}
+p.tujuh {font-weight:700;}
+p.delapan {font-weight:800;}
+p.sembilan {font-weight:900;}
+
+/*Font-style*/
+h1 {
+    font-style: normal;
+}
+
+h2 {
+    font-style: italic;
+}
+
+h3 {
+    font-style: oblique;
+}
+
+/*Font-variant*/
+p {
+    font-variant:normal;
+}
+span.smallcaps{
+    font-variant:small-caps;
+}
+
+/*Kontrol properti color*/
+h1.satu {
+    color:red;
+}
+h1.dua {
+    color:#0000ff;
+}
+h1.tiga {
+    color:rgb(255,255,0);
+}
+h1.empat{
+    color: hsl(248,53%,58%);
+}
+
+/*text-align*/
+.leftAlign {
+    text-align: left;
+}
+.rightAlign {
+    text-align: right;
+}
+.center {
+    text-align: center;
+}
+.justify {
+    text-align: justify;
+}
+
+/*Vertical-align properti*/
+img.a {vertical-align: none;}
+img.b {vertical-align: baseline;}
+img.c {vertical-align: sub;}
+img.d {vertical-align: super;}
+img.e {vertical-align: top;}
+img.f {vertical-align: text-top;}
+img.g {vertical-align: middle;}
+img.h {vertical-align: bottom;}
+img.i {vertical-align: text-bottom;}
+img.j {vertical-align: 100%;}
+img.k {vertical-align: 50%;}
+
+/*Text-decoration property*/
+h1.underline {
+    text-decoration: underline;
+}
+h1.overline {
+    text-decoration: overline;
+}
+h1.line-through {
+    text-decoration: line-through;
+}
+h1.none {
+    text-decoration: none;
+}
+
+/*Box elemen*/
+body, h1, p, img, b {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #000000;
+    padding:2px;
+}
+h1, b {
+    background-color: #cccccc;
+}
+
+/*Properti border*/
+p {border:4px solid red;}
+
+/*CSS Border*/
+.border-solid {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #000000;
+    padding: 2px;
+}
+.border-dotted {
+    border-style: dotted;
+    border-width: 2px;
+    border-color:red;
+    padding: px;
+}
+.border-dashed {
+    border-style: dashed;
+    border-width: 2px;
+    border-color: rgb(255,0,0);
+    padding:2px;
+}
+.border-groove {
+    border-style: groove;
+    border-width: 2px;
+    border-color: rgba(0,51,255,1.00);
+    padding:2px;
+}
+.border-ridge {
+    border-style: ridge;
+    border-width: 2px;
+    border-color: hsl(228,100%,50%);
+    padding: 2px;
+}
+.border-inset {
+    border-style: inset;
+    border-width: 2px;
+    border-color: hsla(359, 100%, 50%, 1.00);
+    padding:2px;
+}
+.border-outset {
+    border-style: outset;
+    border-width: 2px;
+    border-color: #000000;
+    padding: 2px;
+}
+.border-hidden {
+    border-style: hidden;
+    border-width: 2px;
+    padding: 2px;
+}
+
+/*Properti padding*/
+.a, .b {
+    border-style: solid;
+    border-color: #000000;
+    border-width: 2px;
+}
+
+.b {
+    Padding: 15px;
+}
+
+/*Properti margin*/
+p {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #000000;
+}
+em {
+    background-color: #cccccc;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/*Text-shadow properti*/
+.dropShadow {
+    text-shadow: 2px 2px 3px #ff0000;
+}
+
+/*Text-transform properti*/
+p.none {
+    text-transform: none;
+}
+p.capitalize {
+    text-transform: capitalize;
+}
+p.uppercase {
+    text-transform: uppercase;
+}
+p.lowercase {
+    text-transform: lowercase;
+}
+
+/*Letter spacing*/
+.satu {
+    letter-spacing: 3px;
+}
+.dua {
+    letter-spacing: 0.5em;
+}
+.tiga {
+    letter-spacing: -1px;
+}
+
+/*Word-spacing*/
+.satu {
+    word-spacing: 30px;
+}
+.dua {
+    word-spacing: 0.5em;
+}
+.tiga {
+    word-spacing: -1px;
+}
+
+/*White-space properti*/
+.pre {
+white-space: pre;
+}
+.preline {
+white-space: pre-line;
+}
+.prewrap {
+white-space: pre-wrap;
+}
+.nowrap {
+white-space: nowrap;
+}
+.normal {
+white-space: normal;
+}
+
+/*Properti direction*/
+p.ltr {direction:ltr;}
+p.rtl {direction: rtl;}
+
+/*Layout*/
+h1.hide {
+    display:none;
+}
+
+/*Override The Default Display Value*/
+li {
+    display:inline;
+}
+
+/*Inline menjadi blok*/
+span {
+    display: block;
+}
+
+/*Property visibility hidden*/
+h1.hidden {
+    visibility: hidden;
+}
+
+/*Properti float*/
+img {
+    float:right;
+}
+
+/*Clear*/
+.div1 {
+    float:left;
+    width:100px;
+    height:50px;
+    margin:10px;
+    border:3 px solid #73AD21;
+}
+.div2 {
+    border: 1 px solid red;
+}
+.div3 {
+    float:left;
+    width:100px;
+    height:50px;
+    margin:10px;
+    border:3px solid #73ad21;
+}
+.div4 {
+    border:1px solid red;
+    clear: left;
+}
+
+/*Mengatasi overflow*/
+div {
+    border:3px solid #4CAF50;
+    padding: 5px;
+}
+.img1 {
+    float:right;
+}
+.clearfix {
+    overflow:auto;
+}
+.img2 {
+    float:right;
+}

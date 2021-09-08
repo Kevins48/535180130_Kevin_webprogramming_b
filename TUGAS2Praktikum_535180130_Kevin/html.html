@@ -13,6 +13,9 @@
         p.serif{
             font-family: times, "times new roman" ;
         }
+        p.monospace{
+            font-family: 'Courier New', Courier, monospace;
+        }
     </style>
 </head>
 <body>
@@ -46,7 +49,177 @@
     <p>Paragraph 3.</p>
     <code>Some Code.</code>
     <p>Paragraph 4.</p>
+    <p class="sans-serif">Here is some text in a sans-serif font</p>
+    <p class="serif">Here is some text in a serif font.</p>
+    <p class="monospace">Here is some tect in a monospace font.</p>
+
+    <p>ini adalah forn normal, tetapi terdapat <span class="smallcaps">variant smallcaps</span>dibagian
+        tengah</p>
+
+    <h1 class="satu">Ini contoh penggunaan kontrol teks css color</h1>
+    <h1 class="dua">Ini contoh penggunaan kontrol teks css color</h1>
+    <h1 class="tiga">Ini contoh penggunaan kontrol teks css color</h1>
+    <h1 class="empat">Ini contoh penggunaan kontrol teks css color</h1>
+
+    <p>teks standard tanpa vertical align <img class="a" src="img/icon.png" alt="gambar" </p>
+    <p>teks standard baseline vertical align <img class="b" src="img/icon.png" alt="gambar" </p>
+    <p>teks standard sub vertical align <img class="c" src="img/icon.png" alt="gambar" </p>
+    <p>teks standard super vertical align <img class="d" src="img/icon.png" alt="gambar" </p>
+    <p>teks standard top vertical align <img class="e" src="img/icon.png" alt="gambar" </p>
+    <p>teks standard text-top vertical align <img class="f" src="img/icon.png" alt="gambar" </p>
+    <p>teks standard middle vertical align <img class="g" src="img/icon.png" alt="gambar" </p>
+    <p>teks standard bottom vertical align <img class="h" src="img/icon.png" alt="gambar" </p>
+    <p>teks standard text-bottom vertical align <img class="i" src="img/icon.png" alt="gambar" </p>
+    <p>teks standard 100% vertical align <img class="j" src="img/icon.png" alt="gambar" </p>
+    <p>teks standard 50% vertical align <img class="k" src="img/icon.png" alt="gambar" </p>
+
+    <h1 class="underline">teks ini seharusnya ada garis bawah</h1>
+    <h1 class="overline">teks ini seharusnya ada garis atas</h1>
+    <h1 class="line-through">teks ini seharusnya ada garis coret</h1>
+    <h1 class="home">teks ini seharusnya tidak memiliki variasi</h1>
 
 
+    <h1>Berpikir Di Dalam Kotak</h1>
+    <p class="description">Ketika Anda mendesain halaman web dengan CSS, Anda harus mulai berpikir dalam hal
+        <b>kotak</b>
+    </p>
+    <p>Setiap elemen diperlakukan seolah-olah menghasilkan kotak baru. Setiap kotak dapat memiliki aturan baru yang
+        terkait dengannya.</p>
+    <img src="img/logo.png" alt="Bagaimana CSS memperlakukan sebuah kotak">
+    <p>Seperti yang Anda lihat dari diagram di atas, setiap kotak memiliki <b>border</b>.
+        Antara konten dan perbatasan Anda dapat memiliki <b>padding</b>, dan di luar perbatasan Anda dapat memiliki
+        <b>margin</b> untuk memisahkan kotak ini dari kotak di sebelahnya.
+    </p>
+
+    <h2 class="border-solid">ini adalah sebuah paragraf dengan border style solid color hexadecimal</h2>
+    <h2 class="border-dotted">ini adalah sebuah paragraf dengan border style dotted color name</h2>
+    <h2 class="border-dashed">ini adalah sebuah paragraf dengan border style dashed color rgb</h2>
+    <h2 class="border-groove">ini adalah sebuah paragraf dengan border style groove color rgba</h2>
+    <h2 class="border-ridge">ini adalah sebuah paragraf dengan border style ridge color hsl</h2>
+    <h2 class="border-inset">ini adalah sebuah paragraf dengan border style inset color hsla</h2>
+    <h2 class="border-outset">ini adalah sebuah paragraf dengan border style outset</h2>
+    <h2 class="border-hidden">ini adalah sebuah paragraf dengan border style hidden</h2>
+
+    <h1 class="a">ini paragraf tanpa padding</h1>
+    <h1 class="b">ini paragraf dengan padding 15px</h1>
+
+    <p>paragraf ini akan berisi beberapa <em>kata kunci</em> yang akan menambahkan bayangan dan <em>margin</em> yang
+        lebih besar di sekitarnya. Anda akan melihat bahwa kiri dan kanan elemen-elemen ini tersebar lebih luas daripada
+        kata-kata lain.</p>
+    <p>Setiap <em>kata kunci</em> juga memiliki properti <em>warna latar</em> yang ditetapkan untuk menggambarkan di
+        mana tepi elemen berada dan meningkatkan efek <em>margin</em></p>
+    <p>Antara setiap <em>paragraf</em> ada juga margin atas dan bawah, meskipun hanya yang nilainya paling besar yang
+        akan menunjukkan antara paragraf karena margin vertikal yang lebih kecil runtuh ke yang lebih besar.</p>
+    
+    <p>Paragraf ini harus disejajarkan dengan sisi kiri browser.</p>
+    <p class="indent">Hanya baris pertama paragraf ini yang harus diindentasi oleh 3 em, ini seharusnya tidak berlaku
+        untuk baris berikutnya dalam paragraf yang sama.</p>
+
+    <h1 class="dropShadow">ini text dengan properti text-shadow</h1>
+
+    <p class="none">Teks ini belum ditransformasikan.</p>
+    <p class="capitalize">huruf pertama pada setiap karakter menjadi kapital.</p>
+    <p class="uppercase">seluruh teks ini akan menjadi huruf besar</p>
+    <p class="lowercase">SELURUH TEKS INI AKAN MENJADI HURUF KECIL</p>
+
+    <p>ini adalah normal letter spacing</p>
+    <p class="satu">pada kalimat ini menggunakan letter spacing bernilai 3px</p>
+    <p class="dua">pada kalimat ini menggunakan letter spacing bernilai 0.5em</p>
+    <p class="tiga">pada kalimat ini menggunakan letter spacing -1px</p>
+
+    <p class="satu">ini adalah word spacing 30px</p>
+    <p class="dua">pada kalimat ini menggunakan word spacing bernilai 0.5em</p>
+    <p class="tiga">pada kalimat ini menggunakan word spacing -1px</p>
+
+    <h2>normal white space</h2>
+    <h3 class="normal">
+        Contoh ini menunjukkan properti white space. Anda dapat melihat hasil dari berbagai properti white-space dengan
+        mengklik salah satu properti di sebelah kiri.
+    </h3>
+    <h2>nowarp white space</h2>
+    <h3 class="nowrap">
+        Contoh ini menunjukkan properti white space. Anda dapat melihat hasil dari berbagai properti white-space dengan
+        mengklik salah satu properti di sebelah kiri.
+    </h3>
+    <h2>pre white space</h2>
+    <h3 class="pre">
+        Contoh ini menunjukkan properti white space. Anda dapat melihat hasil dari berbagai properi white-space dengan
+        mengklik salah satu properti di sebelah kiri.
+    </h3>
+    <h2>pre-line white space</h2>
+    <h3 class="preline">
+        Contoh ini menunjukkan properti white space. Anda dapat melihat hasil dari berbagai properti white-space dengan
+        mengklik salah satu properti di sebelah kiri.
+    </h3>
+    <h2>pre-wrap white space</h2>
+    <h3 class="prewrap">
+        Contoh ini menunjukkan properti white-space. Anda dapat melihat hasil dari berbagai properti white-space dengan
+        mengklik salah satu properti di sebelah kiri.
+    </h3>
+
+    <h2>Direction arah kiri ke kanan</h2>
+    <p class="ltr">
+        Contoh ini menunjukkan properti direction. Anda dapat melihat hasil dari berbagai properti direction.
+    </p>
+    <h2>Direction arah kanan ke kiri</h2>
+    <p class="rtl">
+        Contoh ini menunjukkan properti direction. Anda dapat melihat hasil dari berbagai properti direction.
+    </p>
+
+    <h1>Ini Adalah Heading yang terlihat</h1>
+    <h1 class="hide">Ini adalah Heading yang tidak terlihat</h1>
+    <p>Perhatikan bahwa elemen h1 dengan display: none; tidak memakan tempat.</p>
+
+    <p>Display a list of links as a horizontal menu:</p>
+
+    <ul>
+        <li class="current"><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Option</a></li>
+    </ul>
+
+
+    <span>Properti Display dengan nilai "block" menghasilkan</span>
+    <span>pemisah baris (baris baru) antara dua elemen.</span>
+
+    <h1>Ini adalah heading yang terlihat</h1>
+    <h1 class="hidden">Ini adalah heading yang disembunyikan</h1>
+    <p>Perhatikan bahwa judul tersembunyi masih membutuhkan tempat</p>
+
+    <p>Dalam contoh ini, gambar akan melayang ke kanan di paragraf, dan teks di paragraf akan mengelilingi gambar.</p>
+    <p><img src="logo.png" alt="logo" style="width:170px;height:170px;margin-left:15px;">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam feugiat tellus at neque fringilla, sed
+        ullamcorper orci viverra. Donec aliquam lacinia suscipit. Sed consectetur placerat dolor sed ultrices. Fusce a
+        urna urna. Phasellus in metus congue, commodo nisi non, dictum mi. Mauris eu posuere leo. Maecenas iaculis vel
+        felis nec lacinia. Cras ante tortor, pretium ut sodales sed, tincidunt quis elit. Donec fermentum, metus vel
+        fermentum venenatis, nisl purus eleifend metus, vitae laoreet ipsum neque placerat ligula. Aliquam viverra
+        cursus libero, eget sollicitudin neque semper quis.
+    </p>
+
+    <h2>tanpa clear</h2>
+    <div class="div1">div1</div>
+    <div class="div2">Perhatikan bahwa div2 setelah div1 dalam kode HTML. Namun, karena div1 mengapung ke kiri, teks di
+        div2 mengalir di sekitar div1.</div>
+    <br><br>
+
+    <h2>dengan clear</h2>
+    <div class="div3">div3</div>
+    <div class="div4">div4. Di sini, clear: lef; memindahkan div4 ke bawah di bawah floating div3. Nilai elemen clear
+        "left" melayang ke kiri. Anda juga dapat melakukan clear "right" dan "both".</div>
+
+        <p>Dalam contoh ini, gambar lebih tinggi dari elemen yang memuatnya, dan itu di-float-kan, sehingga overflow dari
+            penampungnya.</p>
+    
+        <div>
+            <img class="img1" src="logo.png" alt="logo.png" width="170" height="170">
+            Lorem ipsum dolor sit amet, consectetur adipiscing...
+        </div>
+    
+        <p style="clear:right">Tambahkan kelas clearfix dengan overflow: auto, ke elemen yang mengandung untuk memperbaiki
+            masalah ini.</p>
+        <div class="clearfix">
+            <img class="img2" src="logo.png" alt="logo.png" width="170" height="170">
+            Lorem ipsum door sit amet, consectetur...
+        </div>
 </body>
 </html>

@@ -4,20 +4,34 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="stylesheet" 
-href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  <script src="https://unpkg.com/feather-icons"></script>
-  <title>Administrator</title>
-</head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.17.1/dist/bootstrap-table.min.css">
 
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/feather-icons"></script>
+  <script src="https://unpkg.com/bootstrap-table@1.17.1/dist/bootstrap-table.min.js"></script>
+
+  <title>Administrator</title>
+
+  <style>
+    body {
+      background-color: white;
+    }
+
+    .feather {
+      width: 16px;
+      height: 16px;
+      vertical-align: text-bottom;
+    }
+  </style>
+</head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
     <a class="navbar-brand" href="#">
-        <i data-feather="slack"></i>
-        Administrator
+      <i data-feather="slack"></i>
+      Administrator
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -29,13 +43,13 @@ href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
           <a class="nav-link" href="#">
             <i data-feather="server"></i>
             Dashboard <span class="sr-only">(current)</span>
-        </a>
+          </a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">
             <i data-feather="user"></i>
             Customers
-        </a>
+          </a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -44,17 +58,17 @@ href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
             <a class="dropdown-item" href="#">
-                <i data-feather="monitor"></i>
-                Electronics
+              <i data-feather="monitor"></i>
+              Electronics
             </a>
             <a class="dropdown-item" href="#">
-                <i data-feather="tool"></i>
-                Tools &amp; Equipment
+              <i data-feather="tool"></i>
+              Tools &amp; Equipment
             </a>
             <div class="dropdown-divider"></div>
             <a class="dropdown-item" href="#">
-                <i data-feather="package"></i>
-                View All Products
+              <i data-feather="package"></i>
+              View all products
             </a>
           </div>
         </li>
@@ -62,12 +76,98 @@ href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
       <form class="form-inline my-2 my-lg-0">
         <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
         <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
-            <i data-feather="search"></i>
-            Search
+          <i data-feather="search"></i>
+          Search
         </button>
       </form>
     </div>
   </nav>
+
+  <div class="container">
+    <h1 class="mt-3">Dashboard</h1>
+    <hr>
+    <div class="row mb-4">
+      <div class="col-sm mx-3 px-5 py-3 border rounded">
+        <div class="row">
+          <div class="col-sm">
+            <h5 class="my-2 text-primary">Customers</h4>
+            <h4 class="text-success">554</h4>
+          </div>
+          <div class="col-sm text-right">
+            <img src="img/person.svg" width="84" height="84">
+          </div>
+        </div>
+      </div>
+      <div class="col-sm mx-3 px-5 py-3 border rounded">
+        <div class="row">
+          <div class="col-sm">
+            <h5 class="my-2 text-primary">Sales</h4>
+            <h4 class="text-success">$16,356</h4>
+          </div>
+          <div class="col-sm text-right">
+            <img src="img/money.svg" width="84" height="84">
+          </div>
+        </div>
+      </div>
+      <div class="col-sm mx-3 px-5 py-3 border rounded">
+        <div class="row">
+          <div class="col-sm">
+            <h5 class="my-2 text-primary">Performance</h4>
+            <h4 class="text-success">256%</h4>
+          </div>
+          <div class="col-sm text-right">
+            <img src="img/chart.svg" width="84" height="84">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row mb-4">
+      <div class="col-sm mx-3 border rounded">
+        <h4 class="my-2">Invoice</h4>
+        <form class="pb-3">
+          <div class="form-group">
+            <label for="inputInvoiceNo">Invoice No</label>
+            <input type="text" class="form-control" id="inputInvoiceNo" aria-describedby="invoiceNoHelp">
+            <small id="invoiceNoHelp" class="form-text text-muted">INV-##/UNTAR/MM/YYYY</small>
+          </div>
+          <div class="form-group">
+            <label for="inputNotes">Notes</label>
+            <input type="text" class="form-control" id="inputNotes">
+          </div>
+          <button type="submit" class="btn btn-primary">Save</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="row mb-4">
+      <div class="col-sm mx-3">
+        <h4 class="my-2">Customers</h4>
+        <table data-toggle="table" class="table table-striped">
+          <thead>
+            <tr>
+              <th data-sortable="true">No</th>
+              <th data-sortable="true">Full Name</th>
+              <th data-sortable="true">Email</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>John Doe</td>
+              <td>john.doe@gmail.com</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Jane Doe</td>
+              <td>jane.doe@gmail.com</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+  
   <script>feather.replace()</script>
 </body>
 </html>
